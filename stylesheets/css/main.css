@@ -52,3 +52,20 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+p {
+  color: red;
+}
+
+div {
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 150px;
+  margin: 50px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #fff;
+}

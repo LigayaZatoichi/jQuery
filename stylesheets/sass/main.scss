@@ -1,7 +1,27 @@
 // MAIN SASS FILE
 
 
-
 // IMPORTS
 
-@import 'helpers/reset'
+@import 'helpers/reset';
+
+// VARIABLES
+$squareSize: 150px;
+
+
+p {
+  color: red;
+}
+
+div {
+  height: $squareSize;
+  width: $squareSize;
+  background-color: red;
+  border-radius: 5px;
+  text-align: center;
+  line-height: $squareSize;
+  margin: 50px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #fff;
+}
